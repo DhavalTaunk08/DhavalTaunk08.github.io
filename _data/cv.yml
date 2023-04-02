@@ -1,0 +1,79 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Dhaval Taunk
+    - name: Date of Birth
+      value: 8th Oct 1997
+    - name: Languages
+      value: English, Hindi, Gujarati
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS by Research
+      institution: IIIT Hyderabad, Telangana, India
+      year: 2021 - Present
+      
+    - title: Bachelors of Technology
+      institution: IIITDM Jabalpur, M.P., India
+      year: 2016-2020
+      
+- title: Experience
+  type: time_table
+  contents:
+    - title: Data Scientist
+      institution: Yes Bank, Gurgaon, India
+      year: Aug 2020 - July 2021
+      
+    - title: Machine Learning Intern
+      institution: Jio Haptik Technologies Ltd., Mumbai, Maharashtra, India
+      year: May 2019 - Nov 2019
+    
+    - title: Summer Research Intern
+      institution: IIT Guwahati, Assam, India
+      year: May 2018 - July 2018
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/DhavalTaunk08/NLP_scripts</a>
+      year: 2021-now
+      description: NLP scripts
+    - title: <a href="https://github.com/DhavalTaunk08/Wiki-Search-Engine</a>
+      year: 2021
+      description: Wiki Search Engine
+    - title: <a href="https://github.com/DhavalTaunk08/Text-Segmentation-in-Images</a>
+      year: 2020
+      description: Text Segmentation in Images
+    - title: <a href="https://github.com/DhavalTaunk08/Salient_Object_Detection</a>
+      year: 2020
+      description: Salient Object Detection
+    
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

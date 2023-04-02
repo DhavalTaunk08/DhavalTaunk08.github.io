@@ -1,0 +1,61 @@
+---
+---
+
+@article{taunk2023xwikigen,
+  title={{XWikiGen: Cross-lingual Summarization for Encyclopedic Text Generation in Low Resource Languages}},
+  author={Taunk, Dhaval and Sagare, Shivprasad and Patil, Anupam and Subramanian, Shivansh and Gupta, Manish and Varma, Vasudeva },
+  arxiv = {2303.12308},
+  pdf = {https://arxiv.org/abs/2303.12308},
+  journal={The Web Conference (WWW)},
+  year={2023},
+  abstract = "Lack of encyclopedic text contributors, especially on Wikipedia, makes automated text generation for \emph{low resource (LR) languages} a critical problem. Existing work on Wikipedia text generation has focused on \emph{English only} where English reference articles are summarized to generate English Wikipedia pages. But, for low-resource languages, the scarcity of reference articles makes monolingual summarization ineffective in solving this problem. Hence, in this work, we propose \task{}, which is the task of cross-lingual multi-document summarization of text from multiple reference articles, written in various languages, to generate Wikipedia-style text. Accordingly, we contribute a benchmark dataset, \data{}, spanning 69K Wikipedia articles covering five domains and eight languages. We harness this dataset to train a two-stage system where the input is a set of citations and a section title and the output is a section-specific LR summary. The proposed system is based on a novel idea of neural unsupervised extractive summarization to coarsely identify salient information followed by a neural abstractive model to generate the section-specific text. Extensive experiments show that multi-domain training is better than the multi-lingual setup on average.",
+  url={https://arxiv.org/abs/2303.12308},
+  selected={true},
+}
+
+@article{taunk2023grapeqa,
+  title={{GrapeQA: GRaph Augmentation and Pruning to Enhance Question-Answering}},
+  author={Taunk, Dhaval and Khanna, Lakshya and Kandru, Pavan and Varma, Vasudeva and Sharma, Charu and Tapaswi, Makarand},
+  arxiv = {2303.12320},
+  pdf = {https://arxiv.org/abs/2303.12320},
+  journal={NLP4KGC (The Web Conference)},
+  year={2023},
+  abstract="Commonsense question-answering (QA) methods combine the power of pre-trained Language Models (LM) with the reasoning provided by Knowledge Graphs (KG). A typical approach collects nodes relevant to the QA pair from a KG to form a Working Graph (WG) followed by reasoning using Graph Neural Networks(GNNs). This faces two major challenges: (i) it is difficult to capture all the information from the QA in the WG, and (ii) the WG contains some irrelevant nodes from the KG. To address these, we propose GrapeQA with two simple improvements on the WG: (i) Prominent Entities for Graph Augmentation identifies relevant text chunks from the QA pair and augments the WG with corresponding latent representations from the LM, and (ii) Context-Aware Node Pruning removes nodes that are less relevant to the QA pair. We evaluate our results on OpenBookQA, CommonsenseQA and MedQA-USMLE and see that GrapeQA shows consistent improvements over its LM + KG predecessor (QA-GNN in particular) and large improvements on OpenBookQA.",
+  selected={true},
+}
+
+@article{taunk2023summarizing,
+      title={Summarizing Indian Languages using Multilingual Transformers based Models}, 
+      author={Dhaval Taunk and Vasudeva Varma},
+      arxiv = {2303.16657},
+      pdf = {https://arxiv.org/abs/2303.16657},
+      journal={Forum for Information Retrieval Evaluation},
+      year={2022},
+      abstract="With the advent of multilingual models like mBART, mT5, IndicBART etc., summarization in low resource Indian languages is getting a lot of attention now a days. But still the number of datasets is low in number. In this work, we (Team HakunaMatata) study how these multilingual models perform on the datasets which have Indian languages as source and target text while performing summarization. We experimented with IndicBART and mT5 models to perform the experiments and report the ROUGE-1, ROUGE-2, ROUGE-3 and ROUGE-4 scores as a performance metric."
+}
+
+@inproceedings{joshi-etal-2022-iiit,
+    title = "{IIIT}-{MLNS} at {S}em{E}val-2022 Task 8: {S}iamese Architecture for Modeling Multilingual News Similarity",
+    author = "Joshi, Sagar  and
+      Taunk, Dhaval  and
+      Varma, Vasudeva",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = jul,
+    year = "2022",
+    pdf="https://aclanthology.org/2022.semeval-1.161.pdf",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.161",
+    doi = "10.18653/v1/2022.semeval-1.161",
+    pages = "1145--1150",
+    abstract = "The task of multilingual news article similarity entails determining the degree of similarity of a given pair of news articles in a language-agnostic setting. This task aims to determine the extent to which the articles deal with the entities and events in question without much consideration of the subjective aspects of the discourse. Considering the superior representations being given by these models as validated on other tasks in NLP across an array of high and low-resource languages and this task not having any restricted set of languages to focus on, we adopted using the encoder representations from these models as our choice throughout our experiments. For modeling the similarity task by using the representations given by these models, a Siamese architecture was used as the underlying architecture. In experimentation, we investigated on several fronts including features passed to the encoder model, data augmentation and ensembling among our major experiments. We found data augmentation to be the most effective working strategy among our experiments.",
+}
+
+@article{taunk2022profiling,
+  title={Profiling irony and stereotype spreaders on Twitter based on term frequency in tweets},
+  author={Taunk, Dhaval and Joshi, Sagar and Varma, Vasudeva},
+  pdf={https://pan.webis.de/downloads/publications/papers/taunk_2022.pdf},
+  journal={Conference and Labs of the Evaluation Forum (CLEF)},
+  year={2022},
+  abstract="The use of stereotypes, irony, mocking and scornful language is prevalent on social media platforms such as Twitter. Identification or profiling of users who are involved in the spread of such content is beneficial for monitoring its spread. In our work, we study the problem of profiling irony and stereotype spreaders on Twitter as a part of the PAN shared task in CLEF 2022. We experiment with machine learning models applied on a TF-IDF representation of user tweets, and find Random Forest to be the best working one."
+}
